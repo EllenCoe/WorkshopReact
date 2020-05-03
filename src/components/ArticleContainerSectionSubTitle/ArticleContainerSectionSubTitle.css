@@ -1,0 +1,22 @@
+.article-container__section-subtitle h3{
+    text-align: left;
+    line-height: 2.5em;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: var(--color-header);
+    /* color: #A1AEB7; */
+    margin-left:60px;
+    text-transform: uppercase;
+}
+
+.article-container__section-subtitle p{
+    font-size: 1.1em;
+    text-align: left;
+    color: #A1AEB7;
+    font-weight: normal;
+    text-align: justify-all;
+    line-height: 1.5em;
+    margin-left:60px;
+    color:var(--color-paragraph);
+    white-space: pre-line;
+}

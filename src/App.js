@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import ArticleContainer from './components/ArticleContainer';
+import Footer from './components/Footer'
+import ListTeam from './components/ListTeam'
+import teamFront from "./data/team.json";
+import teamBack from "./data/team.json";
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <ArticleContainer></ArticleContainer>
+      <article class="article-container-team" >
+          <ListTeam data = {teamFront} title = 'Track Front-End'></ListTeam>
+          <ListTeam data = {teamBack} title = 'Track Back-End'></ListTeam>
+      
+      </article>
+       
+      
+
+      
+      
+      
+      <Footer></Footer>
     </div>
   );
 }

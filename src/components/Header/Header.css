@@ -1,0 +1,12 @@
+.main-header{
+    padding: 40px;
+    display: flex;  
+    /* border: 1px solid black; */
+}
+
+.main-header-logo-container{
+   margin-left: 22px;
+   margin-bottom: 80px;
+   width: 136px;
+   /* border: 1px solid black; */
+}

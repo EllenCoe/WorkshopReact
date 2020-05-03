@@ -1,0 +1,14 @@
+.main-footer{
+    width: 100%;
+    display: flex;
+    padding: 30px; 
+    
+}
+
+.main-footer span a{
+
+  text-decoration: none; 
+  margin:10px;
+  color: var(--color-header);
+ 
+}

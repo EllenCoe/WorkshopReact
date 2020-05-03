@@ -1,0 +1,17 @@
+
+.article-container-team-lista{
+    max-width: 100%;
+    overflow-x: auto; 
+    padding-bottom: 30px;
+    white-space: nowrap; 
+  }
+  
+  
+.article-container-team-header{
+    width:100%;
+    padding: 2px 0;
+    color: var(--color-header);
+    font-family: "Open Sans", sans-serif; 
+ }
+
+
